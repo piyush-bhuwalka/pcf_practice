@@ -6,6 +6,6 @@ applications:
     image: registry.hub.docker.com/library/nginx:stable
     username: rishgupta34
   env:
-    HARNESS__STATUS__IDENTIFIER: STAGE
+    CF_DOCKER_PASSWORD: 48WVO@7gBr
   routes:
   - route: rishabh_basic_app_temp_temp.apps.pcf-harness.com

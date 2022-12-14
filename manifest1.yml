@@ -4,8 +4,5 @@ applications:
   instances: 0
   docker:
     image: registry.hub.docker.com/library/nginx:stable
-    username: rishgupta34
-  env:
-    CF_DOCKER_PASSWORD: "48WVO@7gBr"
   routes:
   - route: rishabh_basic_app_temp_temp.apps.pcf-harness.com

@@ -1,0 +1,11 @@
+applications:
+- name: basic_app1
+  memory: ((APP_MEMORY))
+  instances: 0
+  docker:
+    image: registry.hub.docker.com/library/nginx:stable
+    username: rishgupta34
+  env:
+    HARNESS__STATUS__IDENTIFIER: STAGE
+  routes:
+  - route: rishabh_basic_app_temp_temp.apps.pcf-harness.com

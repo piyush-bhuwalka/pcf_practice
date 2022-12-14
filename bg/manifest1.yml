@@ -1,0 +1,8 @@
+applications:
+- name: basic_app12
+  memory: ((APP_MEMORY))
+  instances: 0
+  docker:
+    image: registry.hub.docker.com/library/nginx:stable
+  routes:
+  - route: rishabh_basic_app_temp_temp.apps.pcf-harness.com

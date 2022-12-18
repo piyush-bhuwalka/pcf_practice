@@ -6,7 +6,7 @@ rules:
 - rule_type: "http_latency"
   rule_sub_type: "avg_99th"
   threshold:
-    min: 100
+    min: 0
     max: 200
 scheduled_limit_changes:
 - recurrence: 10

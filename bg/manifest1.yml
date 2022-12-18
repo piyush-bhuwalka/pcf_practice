@@ -1,5 +1,5 @@
 applications:
-- name: basic_app12
+- name: basic_app13
   memory: ((APP_MEMORY))
   instances: 0
   docker:

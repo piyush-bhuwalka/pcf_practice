@@ -1,3 +1,3 @@
 APP_MEMORY: 350M
-INSTANCES: 2
+INSTANCES: 7
 APP_NAME: rolling_rollback_locallyyy

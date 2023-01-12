@@ -6,4 +6,4 @@ applications:
     - route: rishabh_basic_app_addt.apps.pcf-harness.com
   services:
     - <+pipeline.variables.service> 
-  timeout: 5
+  timeout: 1

@@ -5,4 +5,4 @@ applications:
   routes:
     - route: rishabh_basic_app_addt.apps.pcf-harness.com
   services:
-    - myautoscaler  
+    - <+pipeline.variables.service>  

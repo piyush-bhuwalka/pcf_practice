@@ -1,3 +1,3 @@
 APP_MEMORY: 350M
-INSTANCES: 2
-APP_NAME: rolling_rollback_locallyyyyw_rediess
+INSTANCES: 1
+APP_NAME: rolling_locallyyyyw_rediess

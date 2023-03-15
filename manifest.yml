@@ -3,6 +3,6 @@ applications:
   instances: ((INSTANCES))
   memory: ((APP_MEMORY))
   routes:
-    - route: rishabh_basic_app_addt.apps.pcf-harness.com
+    - route: tanzusecretpassword3-kind-swan-ot.apps.tas-harness.com
   services:
     - <+pipeline.variables.service>

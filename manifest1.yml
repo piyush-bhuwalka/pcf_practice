@@ -1,8 +1,8 @@
 applications:
-- name: basic_app1
+- name: ((APP_NAME))
+  instances: ((INSTANCES))
   memory: ((APP_MEMORY))
-  instances: 0
-  docker:
-    image: registry.hub.docker.com/library/nginx:stable
   routes:
-  - route: rishabh_basic_app_temp_temp.apps.pcf-harness.com
+    - route: rishabh_bg_app.apps.tas-harness.com
+  services:
+    - my-autoscaler     

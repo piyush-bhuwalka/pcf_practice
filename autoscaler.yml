@@ -8,4 +8,4 @@ scheduled_limit_changes:
   executes_at: "2032-01-01T00:00:00Z"
   instance_limits:
     min: 1
-    max: 2
+    max: 4

@@ -6,3 +6,5 @@ applications:
     image: registry.hub.docker.com/library/nginx:stable 
   routes:
     - route: rishabh_bg_app.apps.tas-harness.com
+  services:
+    - my-autoscaler

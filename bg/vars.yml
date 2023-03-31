@@ -1,4 +1,4 @@
 APP_MEMORY: 250M
 INSTANCES: 1
-APP_NAME: testing_gcs
+APP_NAME: testing_gcsnode
 

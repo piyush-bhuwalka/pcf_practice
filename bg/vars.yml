@@ -1,3 +1,3 @@
 APP_MEMORY: 500M
-INSTANCES: 2
-APP_NAME: check-complete
+INSTANCES: 1
+APP_NAME: new-complete

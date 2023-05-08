@@ -2,8 +2,6 @@ applications:
 - name: ((APP_NAME))
   instances: ((INSTANCES))
   memory: ((APP_MEMORY))
-  docker:
-    image: registry.hub.docker.com/library/nginx:stable 
   routes:
     - route: rishabh_bg_app.apps.tas-harness.com
   
